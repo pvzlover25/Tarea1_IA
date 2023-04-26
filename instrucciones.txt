@@ -1,0 +1,10 @@
+Para la ejecución:
+1) Abrir la consola en el sistema operativo de preferencia
+2) Dentro de la consola, usando el comando cd, ir a la carpeta donde se encuentre el codigo
+3) Ejecutar el codigo escribiendo la siguiente linea en consola (sin comillas): "python tarea1_ia.py" (se debe tener python instalado con anterioridad).
+4) Una vez ejecutado el codigo, la consola mostrará los resultados de las busquedas en consola
+
+Notas:
+1) El codigo siempre va a leer el archivo de nombre "ia_input.txt". Si aquel archivo no se encuentra, el programa puede fallar
+2) El archivo a leer debe estar en la misma carpeta o directorio que el programa a ejecutar.
+3) El archivo "ia_input.txt" debe tener el formato descrito en el enunciado del ejercicio 5 para que se pueda leer correctamente.
