@@ -176,14 +176,15 @@ def main():
     print(f"Costo: {res_bcu[2]}")
     print("------------------------------------")
 
-    print("Busqueda greedy:")
-    print(f"Camino: {res_greedy[0]}")
-    print(f"Costo: {res_greedy[1]}")
-    print("------------------------------------")
-
     print("Busqueda a estrella:")
     print(f"Camino: {res_astar[0]}")
     print(f"Costo: {res_astar[1]}")
+    print("------------------------------------")
+    
+    
+    print("Busqueda greedy:")
+    print(f"Camino: {res_greedy[0]}")
+    print(f"Costo: {res_greedy[1]}")
     print("------------------------------------")
 
     print("funciona :D")
