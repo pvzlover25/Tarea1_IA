@@ -1,6 +1,7 @@
 from io import *
 import random
 
+#Nombre: Marco Antonio Aguayo Solis
 
 class Nodo():
     def __init__(self,valor_h):
@@ -134,13 +135,11 @@ def greedy(nodos,aristas,inicio,fin):#busqueda greedy
     return ret
 
 def main():
-    #Inicio del programa:
+    #Inicio del programa y lectura del archivo:
     ia_input=open("ia_input.txt","r")
     lineas=ia_input.readlines()
     ia_input.close()
     nodos={}
-
-    #Lectura del archivo
     inicio=getNodo(lineas[0])
     fin=getNodo(lineas[1])
     pos=0
